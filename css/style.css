@@ -219,7 +219,6 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    padding: 20px;
 }
 
 .center div {
@@ -256,7 +255,6 @@ input {
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 1px;
-    box-shadow: var(--bs);
     transition: .4s all ease;
     cursor: pointer;
     opacity: 1;
