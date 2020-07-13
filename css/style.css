@@ -409,6 +409,55 @@ input {
     opacity: 1;
 }
 
+.pre-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 190px;
+}
+
+.pre {
+    height: 500px;
+    width: 300px; 
+    background-color: green;
+    display: grid;
+    grid-template-rows: 4fr 1.5fr; 
+    border-radius: 50px; 
+    
+    
+}
+
+.pre-pc{
+    background-color: blue;
+    background-size: 60%;
+
+    
+    
+}
+
+.pre-text{
+    background-color: red;
+}
+
+#pc1{
+    background-image: url(../media/pc1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#pc2{
+    background-image: url(../media/midpc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 78%;
+}
+
+#pc3{
+    background-image: url(../media/m);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
 @media only screen and (max-width: 1200px) {
     .grid-pc {
         grid-template-columns: 1fr 1fr;
