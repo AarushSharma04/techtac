@@ -374,7 +374,7 @@ input {
 
 .grid .card {
     background: #fff;
-    border-radius: 50px;
+    border-radius: 10px;
     width: 300px;
     display: grid;
     grid-template-rows: 3fr 2fr;
@@ -421,21 +421,20 @@ input {
     background-color: green;
     display: grid;
     grid-template-rows: 4fr 1.5fr; 
-    border-radius: 50px; 
+    border-radius: 10px; 
+    border: 3px solid black; 
     
     
 }
 
 .pre-pc{
-    background-color: blue;
+    background-color: white;
     background-size: 60%;
-
-    
-    
 }
 
 .pre-text{
-    background-color: red;
+    background-color: black;
+    
 }
 
 #pc1{
@@ -453,9 +452,10 @@ input {
 }
 
 #pc3{
-    background-image: url(../media/m);
+    background-image: url(../media/pc3-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 83%;
     
 }
 @media only screen and (max-width: 1200px) {
@@ -481,9 +481,10 @@ input {
 .card .top {
     position: relative;
     background: #fff;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 0;
+    border: 3px solid var(--pink);
 }
 
 .top p {
@@ -506,10 +507,12 @@ input {
     font-weight: 600;
 }
 
+ 
+
 .card .bottom {
     background: #000;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding: 20px;
     background: var(--pink);
 }
@@ -520,7 +523,7 @@ input {
     display: inline-block;
     background: #000;
     padding: 10px 20px;
-    border-radius: 40px;
+    border-radius: 50px;
     font-weight: 600;
     box-shadow: var(--bs);
     margin-top: 20px;
