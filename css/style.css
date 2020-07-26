@@ -354,10 +354,17 @@ input {
 
 .recommended .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(400px, auto);
     grid-gap: 4em;
     justify-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1500px) {
+    .recommended .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -583,26 +590,82 @@ footer {
 }
 
 .i1 {
-    background: url(../media/img1.jpg);
-    background-position: 0;
+    background: url(../media/ryzen.jpg);
+    background-position: center;
     background-size: contain;
     height: 200px;
     width: 200px;
 }
 
 .i2 {
-    background: url(../media/img2.jpg);
-    background-position: 0;
+    background: url(../media/b450f.jpg);
+    background-position: center;
     background-size: contain;
-    height: 170px;
-    width: 170px;
+    height: 250px;
+    width: 250px;
 }
 
 .i3 {
-    background: url(../media/img3.jpg);
-    background-position: 0;
+    background: url(../media/xpg.jpg);
+    background-position: center;
     background-size: contain;
     height: 250px;
+    width: 250px;
+}
+
+.i4 {
+    background: url(../media/wdblue.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+}
+
+.i5 {
+    background: url(../media/xfx.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+}
+
+.i6 {
+    background: url(../media/coolercase.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+}
+
+.i7 {
+    background: url(../media/cxpsu.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+}
+
+.i8 {
+    background: url(../media/cmfans.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+}
+
+.i9 {
+    background: url(../media/ornata.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+}
+
+.i10 {
+    background: url(../media/uphere.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 200px;
     width: 250px;
 }
 
@@ -785,4 +848,3 @@ footer {
         width: 250px;
     }
 }
-
